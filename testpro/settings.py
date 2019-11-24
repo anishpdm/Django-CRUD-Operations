@@ -117,6 +117,10 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
+# DataFlair Static Files Settings
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static-files')
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
