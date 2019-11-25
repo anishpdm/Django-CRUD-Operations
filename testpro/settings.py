@@ -25,7 +25,7 @@ SECRET_KEY = 'twh)&!bvdoc6&eiphb7jo*r12hd9=tb*87fzriw%u-*(x3^tyi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','localhost','testanishapp.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0','localhost','mymzcapp.herokuapp.com']
 
 
 # Application definition
@@ -121,7 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static-files')
-# https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
