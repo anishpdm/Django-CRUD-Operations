@@ -11,7 +11,7 @@ def indexpage(request):
 	shelf = Books.objects.all()
 	return render(request, 'library.html', {'shelf': shelf})
 
-def facultypage(request):
+def bookpage(request):
 	upload = BookForm()
 	if request.method == 'POST':
 		upload = BookForm(request.POST, request.FILES)

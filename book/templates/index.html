@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-<h1>hello</h1>
+
 
 {% block myContent %}
 
@@ -9,7 +9,7 @@
    {% csrf_token %}
 
 
-   <table class = 'w-50 table table-light' style="border-radius:10px;background-color:#FFFF99;">
+   <table class = 'table'>
     {% for field in upload_form %}
     <tr>
         <th>{{field.label}}</th>
